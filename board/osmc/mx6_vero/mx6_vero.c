@@ -353,8 +353,6 @@ int board_init(void)
 	/* address of boot parameters */
 	gd->bd->bi_boot_params = PHYS_SDRAM + 0x100;
 	gd->bd->bi_arch_number = 4821; /* Vero MACH */
-	/* Enable front LED */
-	gpio_direction_output(LED, 0);
 	return 0;
 }
 
