@@ -66,7 +66,6 @@
 /*#define CONFIG_SYS_TEXT_BASE		0x17800000*/
 
 #define CONFIG_SYS_L2_PL310
-#define CONFIG_SYS_PL310_BASE		0x00a02000
 
 /* MMC Configuration */
 #define CONFIG_FSL_ESDHC
