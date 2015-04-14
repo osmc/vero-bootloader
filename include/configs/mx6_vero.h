@@ -127,9 +127,6 @@
         "bootenv=uEnv.txt\0" \
         "boot_prefixes=/ /boot/\0" \
         "console=ttymxc0\0" \
-        "stdin=serial,usbkbd\0" \
-        "stdout=serial,vga\0" \
-        "stderr=serial,vga\0" \
         "splashpos=m,m\0" \
         "fdt_high=0xffffffff\0" \
         "initrd_high=0xffffffff\0" \
